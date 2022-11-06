@@ -1,0 +1,703 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>La Yaya</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="Cakes Bakery Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Meta tag Keywords -->
+
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Bootstrap-Core-CSS -->
+	<link href="css/login_overlay.css" rel='stylesheet' type='text/css' />
+
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link rel="stylesheet" href="css/fontawesome-all.css">
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //Custom-Files -->
+
+	<!-- Web-Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Oxygen:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+	    rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Pacifico&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
+	<!-- //Web-Fonts -->
+
+</head>
+
+<body>
+	<div class="mian-content">
+		<!-- header -->
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="logo text-left">
+					<h1>
+						<a class="navbar-brand" href="index.html">
+							<img  src="images/asd.PNG " alt="" class="img-fluid"></a>
+					</h1>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+
+					</span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-lg-auto text-lg-right text-center">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Inicio
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">Sobre nosotros</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+							    aria-haspopup="true" aria-expanded="false">
+								Desplegable
+							</a>
+							<div class="dropdown-menu text-lg-left text-center" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item scroll" href="#services">Servicios</a>
+								<a class="dropdown-item scroll" href="#products" title="">Nuevo productos</a>
+								<a class="dropdown-item scroll" href="#news" title="">Compañias</a>
+								<a class="dropdown-item" href="about.html" title="">Equipo</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">Galería</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contactános</a>
+						</li>
+					</ul>
+					<!-- menu button -->
+					<div class="menu">
+						<a href="#" class="navicon"></a>
+						<div class="toggle">
+							<ul class="toggle-menu list-unstyled">
+								<li>
+									<a href="index.html">Inicio</a>
+								</li>
+								<li>
+									<a class="scroll" href="#products">Nuevos productos</a>
+								</li>
+								<li>
+									<a href="gallery.html">Productos</a>
+								</li>
+								<li>
+									<a class="scroll" href="#order">Ordenar un plato</a>
+								</li>
+								<li>
+									<a class="scroll" href="#faqs">Preguntas frecuentes</a>
+								</li>
+								<li>
+									<a href="contact.html">Contáctanos</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //menu button -->
+				</div>
+			</nav>
+		</header>
+		<!-- //header -->
+
+		<!-- banner -->
+		<!-- main image slider container -->
+		<div id="slider-main">
+			<div  class="banner-text-agile text-center">
+				<div class="container">
+					<h3 class="text-white font-weight-bold mb-3" style="color: black;" font-family: "cursive;">Tripa vacía, corazón sin alegría.</h3>
+					<p class="text-light"></p>
+					<button type="button" class="btn btn-primary button mt-md-5 mt-4" data-toggle="modal" data-target=".bd-example-modal-lg">
+						Ver vídeo publicitario
+					</button>
+				</div>
+			</div>
+			<!-- previous button -->
+			<button id="prev">
+				<i class="fas fa-chevron-left"></i>
+			</button>
+
+			<!-- image container -->
+			<div id="slider"></div>
+
+			<!-- next button -->
+			<button id="next">
+				<i class="fas fa-chevron-right"></i>
+			</button>
+
+			<!-- small circles container -->
+			<div id="circles"></div>
+
+		</div>
+		<!-- end of main image slider container -->
+		<!-- Modal -->
+		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title text-center" id="exampleModalCenterTitle">LA YAYA</h5>
+						
+					</div>
+					<div class="modal-body p-0">
+						<iframe src="images/Mi videoyaya.mp4" style="border:none"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //Model -->
+		<!-- //banner -->
+
+		<!-- banner bottom icons -->
+		<div class="icons-banner-botom">
+			<div class="container">
+				<ul class="list-unstyled my-4">
+					<li class="icons-mkw3ls">
+						<p class="mb-2">Pachamanca</p>
+						<img src="images/pachamanca.jpg" class="img-fluid" alt="">
+					</li>
+					<li class="icons-mkw3ls">
+						<p class="mb-2">Seco a la norteña</p>
+						<img src="images/seco.jpg" class="img-fluid" alt="">
+					</li>
+					<li class="icons-mkw3ls">
+						<p class="mb-2">Ají de gallina</p>
+						<img src="images/aji.jpg" class="img-fluid" alt="">
+					</li>
+					<li class="icons-mkw3ls">
+						<p class="mb-2">Chaufa</p>
+						<img src="images/chaufa.jpg" class="img-fluid" alt="">
+					</li>
+					<li class="icons-mkw3ls">
+						<p class="mb-2">Causa</p>
+						<img src="images/causa.jpg" class="img-fluid" alt="">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //banner bottom icons -->
+	</div>
+	<!-- //main -->
+
+	<!-- banner-bottom -->
+	<section class="banner-main-agiles py-5">
+		<div class="banner-bottom-w3layouts" id="about">
+			<div class="container pt-xl-5 pt-lg-3">
+				<div class="row mt-5">
+					<div class="col-lg-6">
+						<p class="text-uppercase">Unas pocas palabras de nuestra esencia...</p>
+						<h3 class="aboutright">Bienvenidos a la YAYA</h3>
+						<h4 class="aboutright">Tripa vacía, corazón sin alegría.</h4>
+						<p>Somos una cadena de restaurantes, Bherny(líder) y su equipo de trabajo de alto rendimiento quienes tuvieron esta idea generada por su aficiones  a la comida.</p>
+						<button type="button" class="btn btn-primary button mt-md-5 mt-4" onclick="window.location='about.html'">
+							<span>Leer más</span>
+						</button>
+					</div>
+					<div class="col-lg-6 about-img text-lg-enter">
+						<img src="images/chaufa.jpg" alt="" class="img-fluid">
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<!-- //banner-bottom-w3layouts -->
+		<div class="some-another text-center pb-5">
+			<div class="container pb-xl-5 pb-lg-3">
+				<i class="fas fa-utensils"></i>
+				<p class="text-uppercase mb-4 mt-2">Algunas palabras de nuestra chef.</p>
+				<h4 class="aboutright about-right-2">Porque nadie quiere el placer en sí mismo, porque el placer es un gran dolor a veces, o que es una cuestión de gusto.</h4>
+				<h5 class="text-uppsecase font-weight-bold text-dark mt-4">Ainara Camones
+					<span class="text-secondary font-weight-normal">(Master Chef)</span>
+				</h5>
+			</div>
+		</div>
+		<!-- cake -->
+		<img src="images/chef.png" alt="" class="img-fluid cake-style">
+
+		<!-- //cake -->
+	</section>
+
+	<!-- services -->
+	<div class="serives-agile py-5 bg-light border-top" id="services">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row support-bottom text-center">
+				<div class="col-md-4 support-grid">
+					<i class="far fa-heart"></i>
+					<h5 class="text-dark text-uppercase mt-4 mb-3">HECHO CON AMOR</h5>
+					<p>Para llegar al más mínimo detalle, cualquiera de nosotros emprende cualquier trabajo corporal y virtual.</p>
+				</div>
+				<div class="col-md-4 support-grid my-md-0 my-4">
+					<i class="fa-solid fa-user-chef"></i>
+					<h5 class="text-dark text-uppercase mt-4 mb-3">Platos sensacionales</h5>
+					<p>Tenemos una gran variedad de platos a tu disposición, esto y mucho más en la YAYA.</p>
+				</div>
+				<div class="col-md-4 support-grid">
+					<i class="far fa-calendar"></i>
+					<h5 class="text-dark text-uppercase mt-4 mb-3">Carta de eventos</h5>
+					<p>Para poder tener la atracción del cliente, realizamos todos los domingos; tipos de ferias para que el cliente pueda degustar diferentes platos de forma gratuita.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+
+	<!-- stats section -->
+	<div class="middlesection-agile ">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 text-lg-left text-center pt-4">
+					<img src="images/aji.jpg" alt="" class="img-fluid women-style" />
+				</div>
+				<div class="col-lg-6 left-build-wthree aboutright-agilewthree mt-0 py-5">
+					<div class=" py-xl-5 py-lg-3">
+						<h2 class="title-2 text-white mb-sm-5 mb-4">Algunos hechos estadísticos</h2>
+						<div class="row mb-xl-5 mb-4">
+							<div class="col-4 w3layouts_stats_left w3_counter_grid">
+								<p class="counter">2950</p>
+								<p class="para-text-w3ls text-light">Popularidad</p>
+							</div>
+							<div class="col-4 w3layouts_stats_left w3_counter_grid2">
+								<p class="counter">1200</p>
+								<p class="para-text-w3ls text-light">Clientes satisfechos</p>
+							</div>
+							<div class="col-4 w3layouts_stats_left w3_counter_grid1">
+								<p class="counter">5</p>
+								<p class="para-text-w3ls text-light">Premios ganados</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //stats section -->
+
+	<!-- new products -->
+	<div class="featured-section py-5" id="products">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="title text-center mb-5">
+				<h3 class="text-dark mb-2">Nuevos productos</h3>
+				<p>Gracias a la enorme variedad de nuestros restaurantes, contamos con múltiples productos.</p>
+			</div>
+			<div class="content-bottom-in">
+				<ul id="flexiselDemo1">
+					<li>
+						<div class="w3l-specilamk">
+							<div class="row">
+								<div class="col-lg-6 product-name-w3l">
+									<h4 class="font-weight-bold">Cuy chactado</h4>
+									<p class="dont-inti-w3ls mt-4 mb-2">Nuevo lanzamiento!!!.</p>
+									<p>Una de las recetas que por más tiempo se ha mantenido entre las comidas para festejos, reuniones o simplemente como sobremesa es EL Cuy de Chactado, un plato típico de la gastronomía del Perú específicamente de la región de Arequipa, donde su término de Chactado hace referencia a la forma de cocción, ya que es un alimento que se presiona bajo el peso de una piedra.</p>
+									<a href="#order" class="button-3 active mt-5 py-4 scroll">Ordenar ahora</a>
+								</div>
+								<div class="col-lg-6 speioffer-agile">
+									<img src="images/cuy.jpg" alt="" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="w3l-specilamk">
+							<div class="row">
+								<div class="col-lg-6 product-name-w3l">
+									<h4 class="font-weight-bold">Chaufa de pescado</h4>
+									<p class="dont-inti-w3ls mt-4 mb-2">Un delicioso plato marino propio de la gastronomía peruana.</p>
+									<p>Receta de chaufa de mariscos. Los frutos del mar peruano son reconocidos por su alto poder nutritivo, y por eso son muy apreciados en las mesas de muchos hogares.</p>
+									<a href="#order" class="button-3 active mt-5 py-4 scroll">Ordenar ahora</a>
+								</div>
+								<div class="col-lg-6 speioffer-agile">
+									<img src="images/pescao.jpg" alt="" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="w3l-specilamk">
+							<div class="row">
+								<div class="col-lg-6 product-name-w3l">
+									<h4 class="font-weight-bold">Anticuchos</h4>
+									<p class="dont-inti-w3ls mt-4 mb-2"></p>
+									<p>Comida que se prepara con trocitos de carne de vacuno, de pescado, o de ambos, sazonados a veces con una salsa de ají, aceite de oliva y sal. Ensartados en palitos y asados a la parrilla. Se disfruta con mayonesa, huancaina y alguna crema de su preferencia.</p>
+									<a href="#order" class="button-3 active mt-5 py-4 scroll">Ordenar ahora</a>
+								</div>
+								<div class="col-lg-6 speioffer-agile">
+									<img src="images/anti.jpg" alt="" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="w3l-specilamk">
+							<div class="row">
+								<div class="col-lg-6 product-name-w3l">
+									<h4 class="font-weight-bold">Espesado Chiclayano /guarnición con arroz criollo</h4>
+									<p class="dont-inti-w3ls mt-4 mb-2">Plato ferreñafano, de la tierra de la doble fe.</p>
+									<p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto vitae dicta sunt explicabo, Sed ut
+										perspiciatis
+										unde omnis iste natus error sit voluptatem accuslaudantium.</p>
+									<a href="#order" class="button-3 active mt-5 py-4 scroll">Ordenar ahora</a>
+								</div>
+								<div class="col-lg-6 speioffer-agile">
+									<img src="images/espesado.jpg" alt="" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="w3l-specilamk">
+							<div class="row">
+								<div class="col-lg-6 product-name-w3l">
+									<h4 class="font-weight-bold">Puca picante</h4>
+									<p class="dont-inti-w3ls mt-4 mb-2">La Puca picante o “Puka picante” en quechua, forma parte de la gastronomía peruana siendo plato representativo de la provincia de Ayacucho.</p>
+									<p>La puca picante suele variar en su preparación ya que en mi viaje a Ayacucho tuve la oportunidad de comerlo en distintos lugares, algunas personas agregan el chicharrón dentro del aderezo mientras otros lo ponen al final como acompañamiento, solo tengo que decir que en ambos casos el plato siempre da a desear más.</p>
+									<a href="#order" class="button-3 active mt-5 py-4 scroll">Ordenar ahora</a>
+								</div>
+								<div class="col-lg-6 speioffer-agile">
+									<img src="images/puca.jpg" alt="" class="img-fluid">
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- //new products	-->
+
+	<!-- news -->
+	<div class="news-agile bg-cream py-5" id="news">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row">
+				<!-- order form -->
+				<div class="col-lg-4 order-form-w3ls pl-lg-0" id="order">
+					<div class="agile_its_registration bg-white">
+						<h3 class="title-2 mb-3">Ordenar un plato</h3>
+						<p class="mb-4">Hacemos delivery a todo el país, ya que contamos con múltiples locales expandidos por el Perú. </p>
+						<form action="#" method="post">
+							<div class="agileits-location form-group">
+								<label>Género</label>
+								<select required>
+									<option value="">Masculino</option>
+									<option value="1">Femenino</option>
+									<option value="2">Prefiero no decirlo</option>
+									
+								</select>
+								<div class="clear"></div>
+							</div>
+							<div class="agileits-location w3ls-1 form-group">
+								<label>Región</label>
+								<select required>
+									<option value="">Amazonas</option>
+									<option value="1">Lambayeque</option>
+									<option value="2">Ancash</option>
+									<option value="2">Lima</option>
+									<option value="2">Arequipa</option>
+									<option value="2">Loreto</option>
+									<option value="2">Ayacucho</option>
+									<option value="2">Madre de Dios</option>
+									<option value="2">Apurimac</option>
+									<option value="2">Moquegua</option>
+									<option value="2">Cajamarca</option>
+									<option value="2">Pasco</option>
+									<option value="2">Cusco</option>
+									<option value="2">Piura</option>
+									<option value="2">Huancavelica</option>
+									<option value="2">Puno</option>
+									<option value="2">Huánuco</option>
+									<option value="2">San Martín</option>
+									<option value="2">Ica</option>
+									<option value="2">Tacna</option>
+									<option value="2">Junín</option>
+									<option value="2">Tumbes</option>
+									<option value="2">La Libertad</option>
+									<option value="2">Ucayali</option>
+
+								</select>
+								<div class="clear"></div>
+							</div>
+							
+								
+								
+							</div>
+							
+								<label>Método de pago</label>
+								<select required>
+									<option value="">PayPal</option>
+									<option value="">Bcp </option>
+									<option value="">Visa</option>
+									<option value="">Scotiabank</option>
+								</select>
+								<div class="clear"></div>
+							</div>
+							<input type="submit" value="Ordenar" class="agileinfo-order btn" />
+						</form>
+					</div>
+				</div>
+				<!-- //order form -->
+				<!-- news -->
+				<div class="col-lg-8 news-blog mt-lg-0 mt-5">
+					<h3 class="title-2 mb-md-5 mb-4">Próximos eventos</h3>
+					<div class="row">
+						<div class="col-sm-6 news-grids-agile">
+							<div class="news-top">
+								<a href="single.html">
+									<img src="images/chefff.jpg" alt="" class="img-fluid" />
+								</a>
+							</div>
+							<div class="price-bottom bg-white p-4">
+								<a href="single.html" class="text-dark">Nov 20st, 2022</a>
+								<h5 class="mt-3">Gran feria para degustar todos los platos de nuestra gran variedad.</h5>
+							</div>
+						</div>
+						<div class="col-sm-6 news-grids-agile mt-sm-0 mt-5">
+							<div class="news-top">
+								<a href="single.html">
+									<img src="images/upc.jpg" alt="" class="img-fluid" />
+								</a>
+							</div>
+							<div class="price-bottom bg-white p-4">
+								<a href="single.html" class="text-dark">Nov 27st, 2022</a>
+								<h5 class="mt-3">Compartiremos una gran feria, dirigida para cualquier tipo de píblico en la prestigiosa Universidad Peruana de Ciencias Aplicadas.</h5>
+							</div>
+						</div>
+					</div>
+					<!-- //news -->
+					<!-- faqs -->
+					<div class="faq-w3agile mt-5" id="faqs">
+						<h3 class="title-2 mb-md-5 mb-4">Preguntas frecuentes</h3>
+						<ul class="faq list-unstyled">
+							<li class="item1">
+								<a href="#" title="click here" class="text-dark border-bottom pb-3"> ¿Por qué elegir nuestro restaurante?
+									<i class="fas fa-plus float-right"></i>
+								</a>
+								<ul class="list-unstyled">
+									<li class="subitem1">
+										<p class="pt-3 pb-4"> <ul><li>La oferta gastronómica.</li>
+										 <li>Precios: Hoy en día se ha convertido en un factor muy unido a la calidad de la comida. </li>
+										 <li>La imagen y ambiente del local.</li>
+										</ul></p>
+									</li>
+								</ul>
+							</li>
+							<li class="item2 my-3">
+								<a href="#" title="click here" class="text-dark border-bottom pb-3"> ¿Cuántos años de experiencia tenemos?
+									<i class="fas fa-plus float-right"></i>
+								</a>
+								<ul class="list-unstyled">
+									<li class="subitem1">
+										<p class="pt-3 pb-4"> Tenemos una gran trayectoria en la industria, contamos con más de 50 años preparando platos peruanos.</p>
+									</li>
+								</ul>
+							</li>
+							
+						</ul>
+					</div>
+					<!-- //faqs -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //news -->
+
+	<!-- support -->
+	<div class="serives-agile py-5" id="support">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="title text-center mb-5">
+				<h3 class="text-dark mb-2">Ayuda y soporte</h3>
+				<p>Contamos con 3 vías de ayuda.</p>
+			</div>
+			<div class="row support-bottom text-center">
+				<div class="col-md-4 support-grid">
+					<i class="fas fa-headphones"></i>
+					<h5 class="text-dark text-uppercase mt-4 mb-3">SOPORTE EN LÍNEA</h5>
+					<p>Nos ponemos en contacto con nuestros clientes para poder resolver algunas dudas y/o problemas.</p>
+					<button type="button" class="button button-2" onclick="window.location='contact.html'">
+						<span>Llámanos</span>
+					</button>
+				</div>
+				<div class="col-md-4 support-grid my-md-0 my-5">
+					<i class="far fa-comments"></i>
+					<h5 class="text-dark text-uppercase mt-4 mb-3">CHAT EN VIVO 24/7</h5>
+					<p>Contamos con la opción de chatear con un asistente para resolver dudas.</p>
+					<button type="button" class="button button-2 active" onclick="window.location='contact.html'">
+						<span>Vamos a chatear</span>
+					</button>
+				</div>
+				<div class="col-md-4 support-grid">
+					<i class="fas fa-question"></i>
+					<h5 class="text-dark text-uppercase mt-4 mb-3">ALGUNA PREGUNTA</h5>
+					<p>Puede realizar preguntas y/o sugerencias hacia nuestra cadena.</p>
+					<button type="button" class="button button-2" onclick="window.location='contact.html'">
+						<span>Leer más</span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- support -->
+
+	<!-- footer -->
+	<footer class="text-center py-sm-4 py-3">
+		<div class="container py-xl-5 py-3">
+			<div class="w3l-footer footer-social-agile mb-4">
+				<ul class="list-unstyled">
+					<li>
+						<a href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li class="mx-1">
+						<a href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fab fa-dribbble"></i>
+						</a>
+					</li>
+					<li class="ml-1">
+						<a href="#">
+							<i class="fab fa-vk"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- copyright -->
+			<p class="copy-right-grids text-light my-lg-5 my-4 pb-4">© 2022 LA YAYA. TODOS LOS DERECHOS RESERVADOS
+				
+			</p>
+			<!-- //copyright -->
+		</div>
+		<!-- chef -->
+		<img src="images/chef.png" alt="" class="img-fluid chef-style" />
+		<!-- //chef -->
+	</footer>
+	<!-- //footer -->
+
+
+	<!-- Js files -->
+	<!-- JavaScript -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- Default-JavaScript-File -->
+
+	<!-- flexisel (for special offers) -->
+	<script src="js/jquery.flexisel.js"></script>
+	<script>
+		$(window).load(function () {
+			$("#flexiselDemo1").flexisel({
+				visibleItems: 1,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				// responsiveBreakpoints: {
+				// 	portrait: {
+				// 		changePoint: 480,
+				// 		visibleItems: 1
+				// 	},
+				// 	landscape: {
+				// 		changePoint: 640,
+				// 		visibleItems: 2
+				// 	},
+				// 	tablet: {
+				// 		changePoint: 768,
+				// 		visibleItems: 2
+				// 	}
+				// }
+			});
+
+		});
+	</script>
+	<!-- //flexisel (for special offers) -->
+
+	<!-- script for tabs -->
+	<script>
+		$(function () {
+
+			var menu_ul = $('.faq > li > ul'),
+				menu_a = $('.faq > li > a');
+
+			menu_ul.hide();
+
+			menu_a.click(function (e) {
+				e.preventDefault();
+				if (!$(this).hasClass('active')) {
+					menu_a.removeClass('active');
+					menu_ul.filter(':visible').slideUp('normal');
+					$(this).addClass('active').next().stop(true, true).slideDown('normal');
+				} else {
+					$(this).removeClass('active');
+					$(this).next().stop(true, true).slideUp('normal');
+				}
+			});
+
+		});
+	</script>
+	<!-- script for tabs -->
+
+	<!-- stats -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+	<script>
+		$('.counter').countUp();
+	</script>
+	<!-- //stats -->
+
+	<!-- menu-js -->
+	<script>
+		$('.navicon').on('click', function (e) {
+		  e.preventDefault();
+		  $(this).toggleClass('navicon--active');
+		  $('.toggle').toggleClass('toggle--active');
+		});
+	</script>
+	<!-- //menu-js -->
+
+	<!-- banner slider -->
+	<script src="js/image-slider.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/image-slider.css">
+	<!-- //banner slider -->
+
+	<!-- smooth scrolling -->
+	<script src="js/SmoothScroll.min.js"></script>
+	<!-- move-top -->
+	<script src="js/move-top.js"></script>
+	<!-- easing -->
+	<script src="js/easing.js"></script>
+	<!--  necessary snippets for few javascript files -->
+	<script src="js/cakes-bakery.js"></script>
+
+	<script src="js/bootstrap.js"></script>
+	<!-- Necessary-JavaScript-File-For-Bootstrap -->
+
+	<!-- //Js files -->
+
+</body>
+
+</html>
